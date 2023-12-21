@@ -8,6 +8,7 @@ import AboutPage from './Pages/AboutPage';
 import Contact from './Pages/Contact';
 import ServicesPage from './Pages/Services';
 import Package from './Pages/Package';
+import UserReg from './Pages/UserReg';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path='/service' element={<ServicesPage />} />
           <Route path='/package' element={<Package />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/registration' element={<UserReg />} />
         </Routes>
         <Footer />
       </BrowserRouter>

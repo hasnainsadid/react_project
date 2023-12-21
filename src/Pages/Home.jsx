@@ -18,51 +18,41 @@ export default function Home() {
         <HomeSlider />
         {/* <!-- Carousel End -->
 
-
         <!-- Booking Start --> */}
         <Booking />
         {/* <!-- Booking End -->
-
 
         <!-- About Start --> */}
         <About />
         {/* <!-- About End -->
 
-
         <!-- Feature Start --> */}
         <Features />
         {/* <!-- Feature End -->
-
 
         <!-- Destination Start --> */}
         <Destination />
         {/* <!-- Destination Start -->
 
-
         <!-- Service Start --> */}
         <Services />
         {/* <!-- Service End -->
-
 
         <!-- Packages Start --> */}
         <Packages />
         {/* <!-- Packages End -->
 
-
         <!-- Registration Start --> */}
         <Registration />
         {/* <!-- Registration End -->
-
 
         <!-- Team Start --> */}
         <Team />
         {/* <!-- Team End -->
 
-
         <!-- Testimonial Start Problem in Owl carousel --> */}
-        <Testimonial />
+        {/* <Testimonial /> */}
         {/* <!-- Testimonial End -->
-
 
         <!-- Blog Start --> */}
         <Blog />
