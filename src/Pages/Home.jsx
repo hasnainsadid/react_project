@@ -51,7 +51,7 @@ export default function Home() {
         {/* <!-- Team End -->
 
         <!-- Testimonial Start Problem in Owl carousel --> */}
-        {/* <Testimonial /> */}
+        <Testimonial />
         {/* <!-- Testimonial End -->
 
         <!-- Blog Start --> */}

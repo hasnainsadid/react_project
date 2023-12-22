@@ -9,7 +9,7 @@ const Team = () => {
     const [isteam, setTeam] = useState([]);
 
     const allTeam = async () => {
-        axios.get(`http://localhost/WDPF55_React/react_project/api/team.php`).then(result => {
+        axios.get(`http://localhost/react/react_project/api/team.php`).then(result => {
             console.log(result.data.teamlist)
             setTeam(result.data.teamlist);
         })

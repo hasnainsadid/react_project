@@ -12,7 +12,7 @@ const Testimonial = () => {
     const [testimonial, setTestimonial] = useState([]);
 
     const allTestimonial = async () => {
-        axios.get(`http://localhost/WDPF55_React/react_project/api/testimonial.php`).then(result => {
+        axios.get(`http://localhost/react/react_project/api/testimonial.php`).then(result => {
             console.log(result.data.testimoniallist)
             setTestimonial(result.data.testimoniallist);
         })

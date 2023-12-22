@@ -9,7 +9,7 @@ const Blog = () => {
     const [isblog, setBlog] = useState([]);
 
     const allBlog = async () => {
-        axios.get(`http://localhost/WDPF55_React/react_project/api/blog.php`).then(result => {
+        axios.get(`http://localhost/react/react_project/api/blog.php`).then(result => {
             console.log(result.data.bloglist)
             setBlog(result.data.bloglist);
         })
