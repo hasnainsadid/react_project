@@ -19,7 +19,7 @@ const Contact = () => {
     }
 
     const msgInsert = ()=>{
-        axios.post("http://localhost/react/react_project/api/message.php", {data:msg}).then(res=>{
+        axios.post("http://localhost/WDPF55_React/react_project/api/message.php", {data:msg}).then(res=>{
             alert(res.data.msg);
             return navigate('/contact');
         })

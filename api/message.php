@@ -4,7 +4,7 @@
 
     $msg = json_decode(file_get_contents("php://input"));
 
-    if(isset($msg->data->name) && !empty($msg->data->name) && isset($msg->data->email) && !empty($msg->data->email) ){
+    if(isset($msg->data->name) && !empty($msg->data->name) && isset($msg->data->email) && !empty($msg->data->email)){
         $name =  $msg->data->name;
         $email =  $msg->data->email;
         $subject =  $msg->data->subject;

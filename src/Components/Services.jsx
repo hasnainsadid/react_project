@@ -9,7 +9,7 @@ const Services = () => {
       const [isservice, setService] = useState([]);
 
       const allService = async () => {
-        axios.get(`http://localhost/react/react_project/api/service.php`).then(result => {
+        axios.get(`http://localhost/WDPF55_React/react_project/api/service.php`).then(result => {
             console.log(result.data.servicelist)
             setService(result.data.servicelist);
           })     

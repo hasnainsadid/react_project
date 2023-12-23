@@ -9,7 +9,7 @@ const Packages = () => {
     const [ispackage, setPackage] = useState([]);
 
     const allPackage = async () => {
-        axios.get(`http://localhost/react/react_project/api/package.php`).then(result => {
+        axios.get(`http://localhost/WDPF55_React/react_project/api/package.php`).then(result => {
             console.log(result.data.packagelist)
             setPackage(result.data.packagelist);
         })
